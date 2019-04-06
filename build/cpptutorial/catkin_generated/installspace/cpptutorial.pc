@@ -1,0 +1,8 @@
+prefix=/home/shark/catkin_ws/install
+
+Name: cpptutorial
+Description: Description of cpptutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/shark/catkin_ws/install/lib 
+Requires: 

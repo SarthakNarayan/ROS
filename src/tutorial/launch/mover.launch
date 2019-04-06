@@ -1,0 +1,4 @@
+<launch>
+	<node name = "initialize" pkg = "turtlesim" type = "turtlesim_node" output = "screen"/>
+	<node name = "control" pkg = "turtlesim" type = "turtle_teleop_key" output = "screen"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+	<node name = "initialize" pkg = "turtlesim" type = "turtlesim_node" output = "screen"/>
+	<node name = "UsingJoystickAnalog" pkg = "tutorial" type = "joystickControlAnalog.py" output = "screen"/>
+</launch>

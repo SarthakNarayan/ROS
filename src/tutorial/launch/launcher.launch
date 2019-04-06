@@ -1,0 +1,6 @@
+<launch>
+	<node name = "initialize" pkg = "turtlesim" type = "turtlesim_node" output = "screen"/>
+	<node name = "square" pkg = "turtlesim" type = "draw_square" output = "screen"/>
+	<node name = "control" pkg = "turtlesim" type = "turtle_teleop_key" output = "screen"/>
+	<node name = "printing" pkg = "tutorial" type = "mynode.py" output = "screen"/>
+</launch>
